@@ -1,0 +1,26 @@
+.filter__slider .item a {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  background: #0c9e8f;
+  display: block;
+}
+.owl-carousel {
+  direction: ltr;
+}
+
+@media (max-width: 991px) {
+  header .filter__slider .item a {
+    font-size: 0.625rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  }
+  .filter__slider {
+    margin: 0 -5px;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+  .filter__slider .item {
+    margin: 5px;
+    display: inline-block;
+  }
+}

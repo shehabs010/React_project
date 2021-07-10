@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "code": 1,
+      "region_id": 7,
+      "name_ar": "تبوك",
+      "name_en": "Tabuk",
+      "center": [28.41463997, 36.53387003]
+    },
+
+    {
+      "code": 3,
+      "region_id": 1,
+      "name_ar": "الرياض",
+      "name_en": "Riyadh",
+      "center": [24.69999996, 46.73333003]
+    },
+
+    {
+      "code": 5,
+      "region_id": 2,
+      "name_ar": "الطائف",
+      "name_en": "At Taif",
+      "center": [21.26848005, 40.41667003]
+    },
+    {
+      "code": 6,
+      "region_id": 2,
+      "name_ar": "مكة المكرمة",
+      "name_en": "Makkah Al Mukarramah",
+      "center": [21.42717994, 39.84349001]
+    },
+
+    {
+      "code": 10,
+      "region_id": 8,
+      "name_ar": "حائل",
+      "name_en": "Hail",
+      "center": [27.53054999, 41.69733002]
+    },
+
+    {
+      "code": 13,
+      "region_id": 5,
+      "name_ar": "الدمام",
+      "name_en": "Dammam",
+      "center": [26.44199002, 50.10919981]
+    },
+    {
+      "code": 3677,
+      "region_id": 5,
+      "name_ar": "الاحساء",
+      "name_en": "Al Ahsa",
+      "center": [25.39574461, 49.6162808]
+    },
+    {
+      "code": 14,
+      "region_id": 3,
+      "name_ar": "المدينة المنورة",
+      "name_en": "Al Madinah Al Munawwarah",
+      "center": [24.47057996, 39.60781006]
+    },
+    {
+      "code": 15,
+      "region_id": 6,
+      "name_ar": "ابها",
+      "name_en": "Abha",
+      "center": [18.21667, 42.50000002]
+    },
+
+    {
+      "code": 17,
+      "region_id": 10,
+      "name_ar": "جازان",
+      "name_en": "Jazan",
+      "center": [16.89671995, 42.55360001]
+    },
+    {
+      "code": 18,
+      "region_id": 2,
+      "name_ar": "جدة",
+      "name_en": "Jeddah",
+      "center": [21.48817996, 39.18094995]
+    },
+
+    {
+      "code": 24,
+      "region_id": 1,
+      "name_ar": "المجمعة",
+      "name_en": "Al Majma'ah",
+      "center": [25.90742996, 45.33901994]
+    },
+
+    {
+      "code": 1879,
+      "region_id": 2,
+      "name_ar": "ثول",
+      "name_en": "Thuwal",
+      "center": [22.27165001, 39.10917999]
+    },
+
+    {
+      "code": 31,
+      "region_id": 5,
+      "name_ar": "الخبر",
+      "name_en": "Al Khobar",
+      "center": [26.31090997, 50.21074975]
+    },
+    {
+      "code": 227,
+      "region_id": 5,
+      "name_ar": "الظهران",
+      "name_en": "Dhahran",
+      "center": [26.30357996, 50.12261974]
+    },
+
+    {
+      "code": 62,
+      "region_id": 6,
+      "name_ar": "خميس مشيط",
+      "name_en": "Khamis Mushayt",
+      "center": [18.30613002, 42.72976998]
+    },
+    {
+      "code": 2213,
+      "region_id": 9,
+      "name_ar": "عرعر",
+      "name_en": "Ar'ar",
+      "center": [30.97214998, 41.01332997]
+    },
+    {
+      "code": 3417,
+      "region_id": 11,
+      "name_ar": "نجران",
+      "name_en": "Najran",
+      "center": [17.5408618, 44.2663834]
+    }
+  ]
+}

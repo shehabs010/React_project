@@ -1,0 +1,179 @@
+.block-loading.show {
+  display: flex;
+  width: 100%;
+  top: 30%;
+  min-height: 2000px;
+}
+
+.loading-listing,
+.loading-sidebar {
+  display: none;
+}
+
+.block-loading.show .loading-listing {
+  display: block;
+  position: absolute;
+  width: 83.333%;
+  background: #edf1f7;
+  z-index: 1021;
+  top: -10px;
+  transform: translate(0, -2%);
+  right: 0;
+  margin: auto;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 5rem;
+  left: 0;
+}
+.loading-listing::before {
+  content: "";
+  width: 100%;
+  height: 400px;
+  background: url("../../assets/img/pattern.png") repeat-x;
+  background-position: center;
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+.block-loading.show .loading-sidebar {
+  display: block;
+  position: fixed;
+  width: 16.76%;
+  background: #fff;
+  height: 100%;
+  z-index: 1021;
+  left: 0;
+  margin: auto;
+  padding: 3rem 7rem;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+#eight,
+#eightn,
+#five,
+#four,
+#nine,
+#ninen,
+#one,
+#seven,
+#sevenn,
+#six,
+#ten,
+#tenn,
+#three,
+#two {
+  position: relative;
+  background-color: #f5f5f5;
+  height: 6px;
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(8%, #fff),
+    color-stop(18%, #f1f1f1),
+    color-stop(33%, #fff)
+  );
+  background: -webkit-linear-gradient(left, #fff 8%, #f1f1f1 18%, #fff 33%);
+  background: linear-gradient(to right, #fff 8%, #f1f1f1 18%, #fff 33%);
+  -webkit-background-size: 800px 104px;
+  background-size: 800px 104px;
+  border-radius: 20px;
+}
+
+#one {
+  width: 100%;
+  height: 200px;
+}
+
+#two {
+  left: 50px;
+  top: -33px;
+  width: 25%;
+}
+
+#Three {
+  left: 50px;
+  top: -20px;
+  width: 15%;
+}
+
+#four {
+  left: 0;
+  top: 30px;
+  width: 80%;
+  z-index: 999;
+}
+
+#five {
+  left: 0;
+  top: 45px;
+  width: 90%;
+  z-index: 999;
+}
+
+#six {
+  left: 0;
+  top: 60px;
+  width: 50%;
+  z-index: 999;
+}
+
+#seven {
+  left: 0;
+  top: 75px;
+  width: 70%;
+}
+
+#eight {
+  left: 0;
+  top: 90px;
+  width: 80%;
+}
+
+#nine {
+  left: 0;
+  top: 105px;
+  width: 60%;
+}
+
+#ten {
+  left: 0;
+  top: 120px;
+  width: 90%;
+}
+
+#sevenn {
+  left: 0;
+  top: 135px;
+  width: 70%;
+}
+
+#eightn {
+  left: 0;
+  top: 150px;
+  width: 50%;
+}
+
+#ninen {
+  left: 0;
+  top: 165px;
+  width: 70%;
+}
+
+#tenn {
+  left: 0;
+  top: 175px;
+  width: 90%;
+}

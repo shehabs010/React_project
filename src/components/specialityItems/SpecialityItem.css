@@ -1,0 +1,336 @@
+/* Spiciality
+ ===========================*/
+.eduCard__card {
+  background: #fff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 4px 30px #0c9e8f26;
+  box-shadow: 0px 4px 30px #0c9e8f26;
+  border-radius: 30px;
+  padding: 47px 45px;
+}
+
+.eduCard__title {
+  color: #0c9e8f;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.eduCard__icon {
+  margin-left: 20px;
+}
+
+.eduCard__desc {
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  padding-right: 43px;
+  word-break: break-word;
+}
+
+.eduCard__count {
+  font-size: 18px;
+}
+
+.eduCard__header .dropdown .dropdown-toggle {
+  color: #444c54;
+  background-color: transparent;
+  border: 1px solid rgba(41, 42, 46, 0.7);
+  border-radius: 10px;
+  padding: 7px 25px 10px 25px;
+}
+.eduCard__header .dropdown .dropdown-toggle:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.eduCard__header .dropdown .dropdown-toggle::after {
+  vertical-align: 0.1em;
+  border-top: 0.3em solid #292a2e;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.eduCard__header .dropdown .dropdown-menu {
+  width: 100%;
+  background-color: #edf1f7;
+  border-color: rgba(41, 42, 46, 0.7);
+  border-radius: 10px;
+}
+.eduCard__header .dropdown .dropdown-menu a {
+  color: #444c54;
+}
+
+.eduCard__header .dropdown.show .dropdown-toggle::after {
+  border-bottom: 0.3em solid #292a2e;
+  border-top: 0;
+}
+
+.eduCard__details .eduCard__title {
+  font-size: 22px;
+}
+
+.eduCard__list {
+  margin-right: 56px;
+  list-style: none;
+}
+.eduCard__list li {
+  line-height: 2;
+  word-break: break-word;
+}
+.eduCard__list li:before {
+  content: " ";
+  font-weight: bold;
+  display: inline-block;
+  width: 7px;
+  margin-left: 0;
+  transform: translateX(20px);
+  height: 7px;
+  background: #27397c;
+  border-radius: 50%;
+  position: relative;
+  right: 9px;
+}
+
+.eduCard__items {
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 2px 20px #1fa0931a;
+  box-shadow: 0px 2px 20px #1fa0931a;
+  border-radius: 30px;
+  padding: 30px;
+}
+.eduCard__items .eduCard__title {
+  font-size: 1rem;
+}
+.eduCard__items .btn {
+  padding: 0.375rem 1.75rem;
+}
+
+@media (max-width: 320px) {
+  .eduCard__items .btn {
+    padding: 0.375rem 4.75rem;
+  }
+
+  .eduCard__items .col-4:not(:last-child)::after {
+    content: "";
+    width: 1px;
+    background-color: rgba(57, 156, 144, 0.5);
+    height: 75%;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+  .eduCard__btn {
+    float: unset !important;
+    top: 2px;
+  }
+}
+@media (min-width: 768px) {
+  .eduCard__items .col-4:not(:last-child):after {
+    content: "";
+    width: 1px;
+    background-color: rgba(57, 156, 144, 0.5);
+    height: 75%;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+}
+@media (max-width: 767.9px) {
+  .eduCard__card {
+    padding: 35px 0px;
+  }
+  .eduCard__wrapper--item {
+    border-bottom: 1px solid #0c9e8f;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .eduCard__wrapper--item ul {
+    margin-bottom: 0;
+  }
+  .eduCard__details .eduCard__wrapper--item.no-border {
+    border-bottom: 0;
+  }
+  .eduCard__details {
+    flex-direction: column;
+  }
+  .eduCard__title {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  .eduCard:not(.eduCard--result):not(.eduCard--specific) .eduCard__desc {
+    padding: 0;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .eduCard__list {
+    font-size: 14px;
+  }
+  .position-relative {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .eduCard--result > .col-md-12,
+  .eduCard--result > .row > .col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.eduCard__items .col-3 label {
+  font-weight: bold;
+  font-size: 18px;
+}
+.eduCard__btn {
+  float: left;
+}
+.eduCard--result .eduCard__card {
+  padding: 19px 24px;
+}
+
+.eduCard--result .eduCard__title {
+  font-size: 20px;
+}
+
+.eduCard--result .eduCard__desc {
+  padding-right: 0;
+}
+
+.eduCard--result .eduCard__items {
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.searchResult__header::before {
+  content: "";
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  height: 0;
+  width: 96%;
+  border-bottom: 1px solid #27397c;
+}
+
+.searchResult__subTitle {
+  font-size: 18px;
+  position: relative;
+}
+
+.searchResult__subTitle:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: #0c9e8f;
+  right: 0;
+  top: 32px;
+}
+
+.eduCard--specific .eduCard__items {
+  max-width: 810px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 2px 20px rgba(31, 160, 147, 0.1);
+  box-shadow: 0px 2px 20px rgba(31, 160, 147, 0.1);
+  border-radius: 30px;
+  padding: 30px 12.5px;
+}
+.eduCard--specific .eduCard__items .eduCard__title {
+  font-size: 1rem;
+}
+.eduCard--specific .eduCard__items .col:not(:last-child)::after {
+  content: "";
+  width: 1px;
+  background-color: rgba(57, 156, 144, 0.5);
+  height: calc(100% - 15px);
+  margin: auto;
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+  top: 7.5px;
+  align-items: center;
+}
+.eduCard--specific .eduCard__items .col label {
+  font-weight: bold;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+  .eduCard--specific .eduCard__items {
+    box-shadow: none;
+    padding-top: 0;
+  }
+  .eduCard--specific .eduCard__items .eduCard__title,
+  .eduCard--specific .eduCard__items .col label {
+    font-size: 0.875rem;
+    line-height: 26px;
+  }
+  .eduCard--specific .eduCard__items .col label {
+    white-space: normal;
+  }
+
+  .eduCard .eduCard__desc {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .eduCard--specific .eduCard__items .col:not(:last-child)::after {
+    height: 50%;
+  }
+}
+
+.noResult__card {
+  background: #fff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 4px 30px #0c9e8f26;
+  box-shadow: 0px 4px 30px #0c9e8f26;
+  border-radius: 30px;
+  padding: 45px 45px;
+  height: 300px;
+  font-weight: bold;
+}
+
+.error__card {
+  background: #fff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 4px 30px #0c9e8f26;
+  box-shadow: 0px 4px 30px #0c9e8f26;
+  border-radius: 30px;
+  padding: 45px 45px;
+  font-weight: bold;
+}
+
+.error__img {
+  height: 135px;
+}
+
+.error__des {
+  font-size: 20px;
+}
+@media (max-width: 450px) {
+  .eduCard__items .btn {
+    padding: 0.375rem 6.75rem;
+  }
+  .eduCard--specific .eduCard__items .col label,
+  .eduCard--specific .eduCard__items .eduCard__title {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 376px) {
+  .eduCard--specific .eduCard__items .col label,
+  .eduCard--specific .eduCard__items .eduCard__title {
+    font-size: 1rem;
+  }
+  .eduCard__items .btn {
+    padding: 0.375rem 5.75rem;
+  }
+}

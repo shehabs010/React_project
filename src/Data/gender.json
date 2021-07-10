@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "code": 1,
+      "name_ar": "الكل",
+      "name_en": "all"
+    },
+    {
+      "code": 2,
+      "name_ar": "ذكر",
+      "name_en": "Male"
+    },
+    {
+      "code": 3,
+      "name_ar": "أنثى",
+      "name_en": "Female"
+    }
+  ]
+}

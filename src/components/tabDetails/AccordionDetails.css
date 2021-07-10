@@ -1,0 +1,103 @@
+/**** Accordion Details
+====================================*/
+
+.accordion .card {
+  border-top-right-radius: 26px;
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+  border: 0;
+}
+.accordion .card:not(:last-of-type) {
+  border-bottom: 1px solid #0c9e8f !important;
+}
+.accordion .card .card-header {
+  background-color: #f6f6f6;
+  padding: 0.75rem 0.25rem;
+}
+
+.accordion .card .card-header .btn {
+  color: #393939;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.accordion .card .card-header .btn[aria-expanded="true"] {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0c9e8f;
+}
+
+.accordion .card .card-header .btn:hover {
+  box-shadow: 0 0 0 0rem rgb(0 123 255 / 0%);
+}
+
+.accordion .card .card-header .btn::after {
+  vertical-align: 0.1em;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid #0c9e8f;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  left: 25px;
+  position: absolute;
+}
+
+.accordion .card .card-header .btn[aria-expanded="true"]::after {
+  border-bottom: 0.3em solid #0c9e8f;
+  border-bottom: 0.3em solid;
+  border-top: 0;
+}
+
+.accordion .card .card-header .btn .icon {
+  width: 35px;
+  height: 30px;
+  display: inline-block;
+  background-size: contain;
+  margin-left: 5px;
+}
+
+.accordion .card .card-header .btn#skills .icon {
+  background: url("../../assets/img/spiciality/details/skills.png") no-repeat;
+}
+.accordion .card .card-header .btn#approve .icon {
+  background: url("../../assets/img/spiciality/details/approved.png") no-repeat;
+}
+.accordion .card .card-header .btn#job .icon {
+  background: url("../../assets/img/spiciality/details/job.png") no-repeat;
+}
+.accordion .card .card-header .btn#training .icon {
+  background: url("../../assets/img/spiciality/details/training.png") no-repeat;
+}
+.accordion .card .card-header .btn#plan .icon {
+  background: url("../../assets/img/spiciality/details/plan.png") no-repeat;
+}
+
+.accordion .card .card-header .btn[aria-expanded="true"]#skills .icon {
+  background: url("../../assets/img/spiciality/details/active/skills.png")
+    no-repeat;
+}
+.accordion .card .card-header .btn[aria-expanded="true"]#approve .icon {
+  background: url("../../assets/img/spiciality/details/active/approved.png")
+    no-repeat;
+}
+.accordion .card .card-header .btn[aria-expanded="true"]#job .icon {
+  background: url("../../assets/img/spiciality/details/active/job.png")
+    no-repeat;
+}
+.accordion .card .card-header .btn[aria-expanded="true"]#training .icon {
+  background: url("../../assets/img/spiciality/details/active/training.png")
+    no-repeat;
+}
+.accordion .card .card-header .btn[aria-expanded="true"]#plan .icon {
+  background: url("../../assets/img/spiciality/details/active/plan.png")
+    no-repeat;
+}

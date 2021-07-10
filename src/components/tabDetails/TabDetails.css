@@ -1,0 +1,242 @@
+/**** tab Details
+====================================*/
+.tabDetails .nav-tabs .nav-link {
+  color: #393939;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.tabDetails .nav-tabs .nav-link .icon {
+  background: url("../../assets/img/spiciality/details/skills.png") no-repeat;
+  width: 35px;
+  height: 30px;
+  display: inline-block;
+  background-size: contain;
+  margin-left: 5px;
+}
+.tabDetails .nav-tabs .nav-link#approve-tab .icon {
+  background: url("../../assets/img/spiciality/details/approved.png") no-repeat;
+}
+.tabDetails .nav-tabs .nav-link#job-tab .icon {
+  background: url("../../assets/img/spiciality/details/job.png") no-repeat;
+}
+.tabDetails .nav-tabs .nav-link#training-tab .icon {
+  background: url("../../assets/img/spiciality/details/training.png") no-repeat;
+}
+.tabDetails .nav-tabs .nav-link#plan-tab .icon {
+  background: url("../../assets/img/spiciality/details/plan.png") no-repeat;
+}
+.tabDetails .nav-tabs .nav-link.active {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid #0c9e8f;
+  word-break: break-word;
+}
+.tabDetails .nav-tabs .nav-link.active .icon {
+  background: url("../../assets/img/spiciality/details/active/skills.png")
+    no-repeat;
+}
+.tabDetails .nav-tabs .nav-link.active#approve-tab .icon {
+  background: url("../../assets/img/spiciality/details/active/approved.png")
+    no-repeat;
+}
+.tabDetails .nav-tabs .nav-link.active#job-tab .icon {
+  background: url("../../assets/img/spiciality/details/active/job.png")
+    no-repeat;
+}
+.tabDetails .nav-tabs .nav-link.active#training-tab .icon {
+  background: url("../../assets/img/spiciality/details/active/training.png")
+    no-repeat;
+}
+.tabDetails .nav-tabs .nav-link.active#plan-tab .icon {
+  background: url("../../assets/img/spiciality/details/active/plan.png")
+    no-repeat;
+}
+
+.tabDetails .tab-content {
+  padding: 35px 45px;
+  background: #fff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top: 1px solid #27397c;
+  -webkit-box-shadow: 0px 2px 20px #1fa0931a;
+  box-shadow: 0px 2px 20px #1fa0931a;
+  margin-top: -2px;
+}
+
+.tabDetails .tab-content .tab-pane .tab-pan-content {
+  padding-right: 1.75rem;
+}
+.tabDetails .tab-content h6 {
+  color: #0c9e8f;
+  font-weight: bold;
+  font-size: 22px;
+  padding-right: 43px;
+}
+.tabDetails .tab-content ul {
+  margin-right: 17px;
+}
+.tabDetails .tab-content ul li {
+  line-height: 2;
+}
+.tabDetails .tab-content .tableWrapper {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 2px 20px #1fa0931a;
+  box-shadow: 0px 2px 20px #1fa0931a;
+  padding: 5px;
+  border-radius: 25px;
+}
+.tabDetails .tab-content .tableWrapper table {
+  margin: 0;
+  border: 0;
+}
+.tabDetails .tab-content .tableWrapper table thead tr {
+  background-color: #e8e8e8;
+}
+.tabDetails .tab-content .tableWrapper table thead tr:first-child th {
+  border-top: 0;
+}
+
+.tabDetails .tab-content .tableWrapper table thead tr th .sort-icon,
+.tabDetails .tab-content .tableWrapper table thead tr th .sort-icon.sort-asc {
+  background: url("../../assets/img/spiciality/arrow.svg") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 10px;
+  height: 6px;
+}
+.tabDetails .tab-content .tableWrapper table thead tr th .sort-icon.sort-desc {
+  transform: rotate(180deg);
+}
+
+.tabDetails
+  .tab-content
+  .tableWrapper
+  table
+  thead
+  tr:first-child
+  th:first-child {
+  border-top-right-radius: 25px;
+  border-right: 0 !important;
+}
+.tabDetails
+  .tab-content
+  .tableWrapper
+  table
+  thead
+  tr:first-child
+  th:last-child {
+  border-top-left-radius: 25px;
+}
+.tabDetails .tab-content .tableWrapper table thead tr th {
+  font-size: 14px;
+  font-weight: normal;
+}
+.tabDetails .tab-content .tableWrapper table td,
+.tabDetails .tab-content .tableWrapper table th {
+  border-top: 1px solid #dbdbdb;
+  border-left: 1px solid #dbdbdb;
+  color: #393939;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 5px;
+  max-width: 200px;
+}
+.tabDetails .tab-content .tableWrapper table th a {
+  color: #393939;
+  text-decoration: none !important;
+}
+.tabDetails .tab-content .tableWrapper table td:last-child,
+.tabDetails .tab-content .tableWrapper table th:last-child {
+  border-left: 0;
+}
+
+a.link-download i.icon-download {
+  background: url(../../assets/img/spiciality/down-arrow.png) no-repeat;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+
+.attachments .attachments__title {
+  font-weight: bold;
+  color: #393939;
+  font-size: 1rem;
+  direction: initial;
+}
+
+.attachments .attachments__item {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(112, 112, 112, 0.25);
+  align-items: center;
+  padding: 10px 0;
+}
+.attachments .attachments__item:last-child {
+  border-bottom: 1px solid rgba(112, 112, 112, 0.25);
+}
+
+@media screen and (max-width: 991px) {
+  .no-more-tables table table {
+    display: block;
+    border: none;
+  }
+  .no-more-tables > table > thead > tr {
+    display: none !important;
+  }
+  .no-more-tables table tr {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(112, 112, 112, 0.25);
+  }
+  .no-more-tables table tr td {
+    padding-left: 10%;
+    white-space: normal;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid 1px solid rgba(112, 112, 112, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .no-more-tables table tr td:before {
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: right;
+    font-weight: 500;
+    content: attr(data-title);
+    float: right;
+    margin-left: 10px;
+    color: #0c9e8f;
+    padding-top: 5px;
+  }
+}
+
+.circle {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #0c9e8f;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 0.5rem auto;
+  border-radius: 100%;
+}
+.dateInfo__title {
+  font-size: 0.75rem;
+}
+.daymonth {
+  color: #333333;
+  font-size: 1.125rem;
+}
+.year {
+  color: #333333;
+  font-size: 0.875rem;
+}

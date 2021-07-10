@@ -1,0 +1,169 @@
+/** Side Filter
+=============================*/
+.filter__card .filter__container {
+  background: #fff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 4px 30px #0c9e8f26;
+  box-shadow: 0px 4px 30px #0c9e8f26;
+  border-radius: 30px;
+  padding: 20px 0;
+}
+
+.filter__title {
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+
+.filter__group {
+  padding: 25px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.filter div.filter__group:last-of-type {
+  border-bottom: none;
+}
+.filter__group input[type="text"] {
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  line-height: 28px;
+  padding: 6px 12px;
+  margin: 0 0 15px 0;
+  width: 100%;
+}
+
+.filter__checkbox {
+  position: relative;
+}
+.filter__checkbox input[type="checkbox"] {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.filter__checkbox input[type="checkbox"]:checked + label::before {
+  background-color: #0c9e8f;
+  content: "\f00c";
+}
+.filter__checkbox label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 25px;
+}
+.filter__checkbox label::before {
+  content: "";
+  border: 1px solid #399c90;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  right: 0;
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  font-size: 10px;
+  line-height: 2;
+  font-weight: 900;
+}
+.filter__radio input[type="radio"]:checked + label::before {
+  background-color: #0c9e8f;
+  content: "\f00c";
+}
+.filter__radio input[type="radio"] {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.filter__radio input[type="radio"]:checked + label::before {
+  background-color: #0c9e8f;
+  content: "\f00c";
+}
+.filter__radio label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 25px;
+}
+.filter__radio {
+  position: relative;
+}
+.filter__radio label::before {
+  content: "";
+  border: 1px solid #399c90;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  right: 0;
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  font-size: 10px;
+  line-height: 2;
+  font-weight: 900;
+}
+.filter__more {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.filter__more i {
+  font-size: 0.65rem;
+}
+
+@media screen and (max-width: 991px) {
+  .filter .filter__card {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .filter .filter__container {
+    border-radius: 0;
+    height: 100%;
+    overflow: scroll;
+  }
+  .filter__header {
+    padding: 0 25px 0 15px;
+  }
+  .filter__header h4 {
+    color: #27397c;
+    font-size: 1.375rem;
+  }
+  .filter__close {
+    background: url("../../assets/img/svg/times.svg") center no-repeat;
+    width: 55px;
+    height: 55px;
+    font-size: 0;
+  }
+}

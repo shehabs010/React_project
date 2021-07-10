@@ -1,0 +1,25 @@
+{
+  "short_name": "دليل التخصصات",
+  "name": "",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "120x145"
+    },
+    {
+      "src": "logox2.png",
+      "type": "image/png",
+      "sizes": "239x289"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

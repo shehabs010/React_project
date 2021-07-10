@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "code": 1,
+      "name_ar": "دبلوم",
+      "name_en": "Diploma"
+    },
+    {
+      "code": 2,
+      "name_ar": "بكالوريوس",
+      "name_en": "Bachelor's"
+    },
+    {
+      "code": 3,
+      "name_ar": "ماجستير",
+      "name_en": "Masters"
+    },
+    {
+      "code": 4,
+      "name_ar": "دكتوراه",
+      "name_en": "Doctorate"
+    }
+  ]
+}
